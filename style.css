@@ -8,7 +8,7 @@
   max-width: 1150px;
   margin: 0 auto;
 }
-
+/*** Navbar Start ***/
 .header {
   background-color: #1f2937;
 }
@@ -42,7 +42,14 @@ li a:hover {
   border-radius: 11px;
   color: #5ec7c7;
 }
+
 .logo-img img {
   max-height: 80px;
   max-width: 100px;
 }
+
+/*** Navbar End ***/
+
+/*** Header Main Section Start ***/
+
+/*** Header Main Section Start ***/
