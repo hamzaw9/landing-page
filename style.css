@@ -62,7 +62,7 @@ li a:hover {
 
 .header-main-text,
 .header-main-img {
-  width: 48%;
+  flex-basis: 48%;
 }
 
 .header-main-text h1 {
@@ -81,7 +81,7 @@ li a:hover {
 }
 .signup-btn {
   color: #f9f8fa;
-  background-color: #3883f6;
+  background-color: #3882f6;
   border: none;
   font-size: 20px;
   font-weight: bold;
@@ -92,3 +92,34 @@ li a:hover {
 /*** Header Main Section Start ***/
 
 /*** Info-section Start ***/
+
+.info-section {
+  text-align: center;
+  padding: 54px 110px 110px 110px;
+}
+
+.info-section h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 54px;
+}
+
+.info-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 20%;
+  border: solid 4px #3882f6;
+  border-radius: 12px;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 9px;
+}
+
+/*** Info-section End ***/
