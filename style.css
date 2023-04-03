@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-  max-width: 1150px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 /*** Navbar Start ***/
@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -26,6 +27,7 @@ ul {
 }
 li {
   display: inline;
+  margin-left: 12px;
 }
 
 li a {
@@ -44,12 +46,47 @@ li a:hover {
 }
 
 .logo-img img {
-  max-height: 80px;
-  max-width: 100px;
+  height: 80px;
+  width: 100px;
 }
 
 /*** Navbar End ***/
 
 /*** Header Main Section Start ***/
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0px;
+}
+
+.header-main-text,
+.header-main-img {
+  width: 48%;
+}
+
+.header-main-text h1 {
+  font-size: 57px;
+  color: #f9f8fa;
+}
+
+.header-main-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 12px;
+}
+
+.header-main-img img {
+  width: 100%;
+}
+.signup-btn {
+  color: #f9f8fa;
+  background-color: #3883f6;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 28px;
+}
 
 /*** Header Main Section Start ***/
