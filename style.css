@@ -123,3 +123,29 @@ li a:hover {
 }
 
 /*** Info-section End ***/
+
+/*** Quote section Start ***/
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 170px 0;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  font-style: italic;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+blockquote {
+  margin-bottom: 10px;
+}
+
+figcaption {
+  text-align: right;
+}
+
+/*** Quote section End ***/
