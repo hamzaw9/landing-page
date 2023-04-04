@@ -117,6 +117,12 @@ li a:hover {
   border: solid 4px #3882f6;
   border-radius: 12px;
 }
+
+.card:hover {
+  filter: drop-shadow(5px 5px 5px #888888);
+  transition: 0.3s;
+}
+
 .card img {
   max-width: 100%;
   border-radius: 9px;
@@ -161,7 +167,7 @@ figcaption {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 108px;
+  padding: 38px 108px;
 }
 .action-section button {
   border: 2px solid #f9f8fa;
@@ -180,3 +186,16 @@ figcaption {
 }
 
 /*** Action section End ***/
+
+/*** Footer Start ***/
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9f8fa;
+  padding: 38px 0;
+}
+
+/*** Footer End ***/
