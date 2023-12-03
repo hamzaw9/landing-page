@@ -7,7 +7,7 @@
 header,
 main {
   background-color: #1f2937;
-  padding: 0 4rem;
+  padding: 0 4rem 5rem;
 }
 
 nav {
@@ -47,6 +47,22 @@ li a:hover {
   width: 100px;
 }
 
+main {
+  display: flex;
+  gap: 5rem;
+}
+
+.main-text,
+.main-img {
+  flex: 1;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .main-text h1 {
   font-size: 57px;
   color: #f9f8fa;
@@ -56,6 +72,10 @@ li a:hover {
   font-size: 18px;
   color: #e5e7eb;
   margin-bottom: 12px;
+}
+
+.main-text button {
+  width: max-content;
 }
 
 .main-img img {
