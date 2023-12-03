@@ -9,7 +9,7 @@ main {
   background-color: #1f2937;
 }
 
-.navbar {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
