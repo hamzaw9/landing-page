@@ -7,6 +7,7 @@
 header,
 main {
   background-color: #1f2937;
+  padding: 0 4rem;
 }
 
 nav {
@@ -46,36 +47,21 @@ li a:hover {
   width: 100px;
 }
 
-/*** Navbar End ***/
-
-/*** Header Main Section Start ***/
-
-.header-main {
-  display: flex;
-  justify-content: space-between;
-  padding: 120px 0px;
-}
-
-.header-main-text,
-.header-main-img {
-  flex-basis: 48%;
-}
-
-.header-main-text h1 {
+.main-text h1 {
   font-size: 57px;
   color: #f9f8fa;
 }
 
-.header-main-text p {
+.main-text p {
   font-size: 18px;
   color: #e5e7eb;
   margin-bottom: 12px;
 }
 
-.header-main-img img {
+.main-img img {
   width: 100%;
 }
-.header-main-text button {
+.main-text button {
   color: #f9f8fa;
   background-color: #3882f6;
   border: none;
@@ -84,10 +70,6 @@ li a:hover {
   border-radius: 8px;
   padding: 8px 28px;
 }
-
-/*** Header Main Section Start ***/
-
-/*** Info-section Start ***/
 
 .info-section {
   text-align: center;
