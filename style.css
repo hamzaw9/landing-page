@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+button {
+  cursor: pointer;
+}
+
 header,
 main {
   background-color: #1f2937;
@@ -74,10 +78,6 @@ main {
   margin-bottom: 12px;
 }
 
-.main-text button {
-  width: max-content;
-}
-
 .main-img img {
   width: 100%;
 }
@@ -89,6 +89,14 @@ main {
   font-weight: bold;
   border-radius: 8px;
   padding: 8px 28px;
+  width: max-content;
+  transition: color 0.5s, background-color 0.5s, padding-right 0.5s;
+}
+
+.main-text button:hover {
+  color: #3882f6;
+  background-color: #f9f8fa;
+  padding-right: 35px;
 }
 
 .info-section {
