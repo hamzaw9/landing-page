@@ -4,12 +4,8 @@
   box-sizing: border-box;
 }
 
-.wrapper {
-  max-width: 1050px;
-  margin: 0 auto;
-}
-/*** Navbar Start ***/
-.header {
+header,
+main {
   background-color: #1f2937;
 }
 
