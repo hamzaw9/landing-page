@@ -104,7 +104,7 @@ main {
   padding: 54px 110px 110px 110px;
 }
 
-.info-section h1 {
+.info-section h3 {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
@@ -122,11 +122,11 @@ main {
   flex-basis: 20%;
   border: solid 4px #3882f6;
   border-radius: 12px;
+  transition: transform 0.5s;
 }
 
 .card:hover {
-  filter: drop-shadow(5px 5px 5px #888888);
-  transition: 0.3s;
+  transform: scale(1.08);
 }
 
 .card img {
