@@ -173,14 +173,15 @@ figcaption {
   color: #f9f8fa;
   font-size: 20px;
   font-weight: bold;
-  border-radius: 8px;
-  padding: 6px 24px;
+  border-radius: 4px;
+  padding: 6px 28px;
+  transition: border-radius 0.7s, background-color 0.7s, color 0.7s;
 }
 
 .action button:hover {
+  border-radius: 24px;
   background-color: #f9f8fa;
   color: #3882f6;
-  cursor: pointer;
 }
 
 .footer {
