@@ -134,22 +134,21 @@ main {
   border-radius: 9px;
 }
 
-/*** Info-section End ***/
-
-/*** Quote section Start ***/
-
-.quote-section {
+.quote {
   background-color: #e5e7eb;
+}
+
+figure {
+  max-width: 820px;
+  margin: 0 auto;
   padding: 170px 0;
 }
 
-.quote {
+blockquote {
   font-size: 36px;
   font-weight: lighter;
   color: #1f2937;
   font-style: italic;
-  max-width: 820px;
-  margin: 0 auto;
 }
 
 blockquote {
@@ -159,10 +158,6 @@ blockquote {
 figcaption {
   text-align: right;
 }
-
-/*** Quote section End ***/
-
-/*** Action section Start ***/
 
 .container {
   margin: 115px 0;
