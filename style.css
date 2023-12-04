@@ -159,10 +159,7 @@ figcaption {
   text-align: right;
 }
 
-.container {
-  margin: 115px 0;
-}
-.action-section {
+.action {
   background-color: #3882f6;
   color: #f9f8fa;
   display: flex;
@@ -170,7 +167,7 @@ figcaption {
   align-items: center;
   padding: 38px 108px;
 }
-.action-section button {
+.action button {
   border: 2px solid #f9f8fa;
   background-color: #3882f6;
   color: #f9f8fa;
@@ -180,15 +177,11 @@ figcaption {
   padding: 6px 24px;
 }
 
-.action-section button:hover {
+.action button:hover {
   background-color: #f9f8fa;
   color: #3882f6;
   cursor: pointer;
 }
-
-/*** Action section End ***/
-
-/*** Footer Start ***/
 
 .footer {
   background-color: #1f2937;
