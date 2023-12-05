@@ -113,10 +113,9 @@ main {
 }
 
 .info-card {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  gap: 20px;
 }
 
 .card {
@@ -197,5 +196,15 @@ footer {
 @media (width <= 900px) {
   .main-img {
     display: none;
+  }
+
+  .main-text {
+    gap: 35px;
+    width: 75%;
+    flex: none;
+  }
+
+  .info-card {
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
   }
 }
