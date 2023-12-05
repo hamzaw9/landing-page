@@ -184,7 +184,7 @@ figcaption {
   color: #3882f6;
 }
 
-.footer {
+footer {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
@@ -192,5 +192,3 @@ figcaption {
   color: #f9f8fa;
   padding: 38px 0;
 }
-
-/*** Footer End ***/
