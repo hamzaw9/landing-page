@@ -80,6 +80,7 @@ main {
 
 .main-img img {
   width: 100%;
+  height: 100%;
 }
 .main-text button {
   color: #f9f8fa;
@@ -112,10 +113,9 @@ main {
 }
 
 .info-card {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  gap: 20px;
 }
 
 .card {
@@ -139,7 +139,7 @@ main {
 }
 
 figure {
-  max-width: 820px;
+  width: 69%;
   margin: 0 auto;
   padding: 170px 0;
 }
@@ -165,7 +165,7 @@ figcaption {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 38px 108px;
+  padding: 3% 5%;
 }
 .action button {
   border: 2px solid #f9f8fa;
@@ -174,7 +174,7 @@ figcaption {
   font-size: 20px;
   font-weight: bold;
   border-radius: 4px;
-  padding: 6px 28px;
+  padding: 6px 22px;
   transition: border-radius 0.7s, background-color 0.7s, color 0.7s;
 }
 
@@ -184,7 +184,7 @@ figcaption {
   color: #3882f6;
 }
 
-.footer {
+footer {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
@@ -193,4 +193,27 @@ figcaption {
   padding: 38px 0;
 }
 
-/*** Footer End ***/
+@media (width <= 900px) {
+  .main-img {
+    display: none;
+  }
+
+  .main-text {
+    gap: 35px;
+    width: 75%;
+    flex: none;
+  }
+
+  .info-card {
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+  }
+
+  figure {
+    width: 89%;
+    padding: 140px 0;
+  }
+  /* 
+  .action {
+    padding: 38px 50px;
+  } */
+}
