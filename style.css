@@ -21,6 +21,11 @@ main {
   transition: font-size 0.5s;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  font-size: 20px;
+  color: #e5e7eb;
+}
+
 .logo {
   height: 80px;
   width: 100px;
