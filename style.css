@@ -14,19 +14,35 @@ main {
   padding: 0 4rem 5rem;
 }
 
-.navbar-light .navbar-nav .nav-link {
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline;
+  margin-left: 12px;
+}
+
+li a {
+  text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
-  border-radius: 11px;
-  transition: font-size 0.5s;
+  transition: font-size 0.3s;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+li a:hover {
   font-size: 20px;
-  color: #e5e7eb;
 }
 
-.logo {
+.logo-img img {
   height: 80px;
   width: 100px;
 }
