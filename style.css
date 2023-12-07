@@ -208,8 +208,20 @@ footer {
     width: 89%;
     padding: 140px 0;
   }
-  /* 
+}
+
+@media (width <= 768px) {
   .action {
-    padding: 38px 50px;
-  } */
+    flex-direction: column;
+    gap: 20px;
+    align-items: normal;
+  }
+
+  .action h2 {
+    margin-bottom: 10px;
+  }
+
+  .action button {
+    width: max-content;
+  }
 }
