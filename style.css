@@ -200,6 +200,11 @@ footer {
     flex: none;
   }
 
+  .info-section {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
   .info-card {
     grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
   }
@@ -230,5 +235,11 @@ footer {
 
   .action button {
     width: max-content;
+  }
+}
+
+@media (width <= 500px) {
+  .info-card {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   }
 }
