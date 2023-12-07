@@ -35,15 +35,11 @@ li a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
-  padding: 8px 14px;
-  border: 1px solid #e5e7eb;
-  border-radius: 11px;
+  transition: font-size 0.3s;
 }
 
 li a:hover {
-  border: 1px solid #5ec7c7;
-  border-radius: 11px;
-  color: #5ec7c7;
+  font-size: 20px;
 }
 
 .logo-img img {
@@ -204,6 +200,11 @@ footer {
     flex: none;
   }
 
+  .info-section {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
   .info-card {
     grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
   }
@@ -212,8 +213,33 @@ footer {
     width: 89%;
     padding: 140px 0;
   }
-  /* 
+}
+
+@media (width <= 768px) {
+  figure {
+    padding: 100px 0;
+  }
+
+  blockquote {
+    font-size: 26px;
+  }
   .action {
-    padding: 38px 50px;
-  } */
+    flex-direction: column;
+    gap: 20px;
+    align-items: normal;
+  }
+
+  .action h2 {
+    margin-bottom: 10px;
+  }
+
+  .action button {
+    width: max-content;
+  }
+}
+
+@media (width <= 500px) {
+  .info-card {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  }
 }
