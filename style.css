@@ -211,6 +211,13 @@ footer {
 }
 
 @media (width <= 768px) {
+  figure {
+    padding: 100px 0;
+  }
+
+  blockquote {
+    font-size: 26px;
+  }
   .action {
     flex-direction: column;
     gap: 20px;
